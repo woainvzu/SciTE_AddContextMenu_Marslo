@@ -1,0 +1,99 @@
+Windows Registry Editor Version 5.00
+
+; =============================================================================
+;       FileName: SciTE_Menu.reg
+;           Desc: Add right-click menu 'Edit with SciTE' for 38 file types _ Made by Marslo
+;         Author: Marslo
+;          Email: marslo.vida@gmail.com
+;        Version: 0.0.2
+;     LastChange: 2012-05-31 15:59:17
+;        History: 
+; =============================================================================
+
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.c\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.c\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.c\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.cpp\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.cpp\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.cpp\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.h\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.h\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.h\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.java\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.java\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.java\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_CLASSES_ROOT\Python.File\shell\Edit with SciTE]
+
+[HKEY_CLASSES_ROOT\Python.File\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe /edit \"%1\""
+
+
+
+[HKEY_CLASSES_ROOT\Perl\shell]
+
+[HKEY_CLASSES_ROOT\Perl\shell\Edit with SciTE]
+
+[HKEY_CLASSES_ROOT\Perl\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_CLASSES_ROOT\RubyFile\shell]
+
+[HKEY_CLASSES_ROOT\RubyFile\shell\Edit with SciTE]
+
+[HKEY_CLASSES_ROOT\RubyFile\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+[HKEY_CLASSES_ROOT\RubyWFile\shell]
+
+[HKEY_CLASSES_ROOT\RubyWFile\shell\Edit with SciTE]
+
+[HKEY_CLASSES_ROOT\RubyWFile\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.lua\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.lua\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.lua\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\batfile\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\batfile\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\batfile\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+

@@ -1,0 +1,366 @@
+Windows Registry Editor Version 5.00
+
+; =============================================================================
+;       FileName: SciTE_Menu.reg
+;           Desc: Add right-click menu 'Edit with SciTE' for 38 file types _ Made by Marslo
+;         Author: Marslo
+;          Email: marslo.vida@gmail.com
+;        Version: 0.0.2
+;     LastChange: 2012-05-31 15:59:17
+;        History: 
+; =============================================================================
+
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.asm\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.asm\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.asm\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.c\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.c\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.c\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.cc\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.cc\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.cc\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.cpp\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.cpp\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.cpp\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.cxx\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.cxx\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.cxx\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_CLASSES_ROOT\CSSfile\shell]
+
+[HKEY_CLASSES_ROOT\CSSfile\shell\Edit with SciTE]
+
+[HKEY_CLASSES_ROOT\CSSfile\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.h\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.h\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.h\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.hh\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.hh\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.hh\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.hxx\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.hxx\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.hxx\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.hpp\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.hpp\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.hpp\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.idl\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.idl\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.idl\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.odl\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.odl\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.odl\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.rc\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.rc\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.rc\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.rc2\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.rc2\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.rc2\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.dlg\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.dlg\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.dlg\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.def\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.def\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.def\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\VBSFile\Shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\VBSFile\Shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\VBSFile\Shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.bas\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.bas\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.bas\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.frm\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.frm\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.frm\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.cls\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.cls\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.cls\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.ctl\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.ctl\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.ctl\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.java\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.java\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.java\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\JSFile\Shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\JSFile\Shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\JSFile\Shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+[HKEY_CLASSES_ROOT\Python.File\shell\Edit with SciTE]
+
+[HKEY_CLASSES_ROOT\Python.File\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe /edit \"%1\""
+
+
+
+
+[HKEY_CLASSES_ROOT\Perl\shell]
+
+[HKEY_CLASSES_ROOT\Perl\shell\Edit with SciTE]
+
+[HKEY_CLASSES_ROOT\Perl\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_CLASSES_ROOT\RubyFile\shell]
+
+[HKEY_CLASSES_ROOT\RubyFile\shell\Edit with SciTE]
+
+[HKEY_CLASSES_ROOT\RubyFile\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+[HKEY_CLASSES_ROOT\RubyWFile\shell]
+
+[HKEY_CLASSES_ROOT\RubyWFile\shell\Edit with SciTE]
+
+[HKEY_CLASSES_ROOT\RubyWFile\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.cgi\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.cgi\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.cgi\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.lua\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.lua\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.lua\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.conf\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.conf\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.conf\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.mak\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.mak\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.mak\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_CLASSES_ROOT\xmlfile\shell]
+
+[HKEY_CLASSES_ROOT\xmlfile\shell\Edit with SciTE]
+
+[HKEY_CLASSES_ROOT\xmlfile\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.iface\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.iface\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.iface\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\batfile\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\batfile\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\batfile\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.e\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.e\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.e\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.m\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.m\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.m\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.mm\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.mm\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.mm\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.vim\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.vim\shell\Edit with SciTE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.vim\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
+
+
+
+
+[HKEY_CLASSES_ROOT\regfile\shell]
+
+[HKEY_CLASSES_ROOT\regfile\shell\Edit with SciTE]
+
+[HKEY_CLASSES_ROOT\regfile\shell\Edit with SciTE\command]
+@="C:\\Program Files\\SciTE\\SciTE.exe %1"
